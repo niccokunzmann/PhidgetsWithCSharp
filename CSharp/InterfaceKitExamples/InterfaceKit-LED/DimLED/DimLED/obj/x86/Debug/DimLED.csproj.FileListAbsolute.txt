@@ -1,0 +1,9 @@
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\obj\x86\Debug\DimLED.csprojResolveAssemblyReference.cache
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\obj\x86\Debug\DimLED.Properties.Resources.resources
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\obj\x86\Debug\DimLED.csproj.GenerateResource.Cache
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\obj\x86\Debug\DimLED.Form1.resources
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\bin\Debug\DimLED.exe
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\bin\Debug\DimLED.pdb
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\bin\Debug\Phidget21.NET.dll
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\obj\x86\Debug\DimLED.exe
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-LED\DimLED\DimLED\obj\x86\Debug\DimLED.pdb

@@ -1,0 +1,5 @@
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\LEDExamples\LED-simple\LED-simple\bin\Debug\LED-simple.exe
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\LEDExamples\LED-simple\LED-simple\bin\Debug\LED-simple.pdb
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\LEDExamples\LED-simple\LED-simple\obj\Debug\LED-simple.csprojResolveAssemblyReference.cache
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\LEDExamples\LED-simple\LED-simple\obj\Debug\LED-simple.exe
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\LEDExamples\LED-simple\LED-simple\obj\Debug\LED-simple.pdb

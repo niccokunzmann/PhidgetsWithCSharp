@@ -68,3 +68,5 @@ Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-full\Int
 Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-full\InterfaceKit-full\obj\Debug\InterfaceKit-full.csproj.GenerateResource.Cache
 Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-full\InterfaceKit-full\obj\Debug\InterfaceKit-full.exe
 Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-full\InterfaceKit-full\obj\Debug\InterfaceKit-full.pdb
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-full\InterfaceKit-full\obj\Debug\InterfaceKit-full.exe
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-full\InterfaceKit-full\obj\Debug\InterfaceKit-full.pdb
