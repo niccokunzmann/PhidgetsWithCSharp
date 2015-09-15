@@ -1,0 +1,11 @@
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\obj\Debug\Interop.Phidget21COM.dll
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.ResolveComReference.cache
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\bin\Debug\Phidget21.NET.dll
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\bin\Debug\Interop.Phidget21COM.dll
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+Y:\Visual Studio 2010\Projects\CSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

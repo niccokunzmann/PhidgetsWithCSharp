@@ -1,0 +1,5 @@
+Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\bin\Debug\InterfaceKit-simple.exe
+Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\bin\Debug\InterfaceKit-simple.pdb
+Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\obj\Debug\InterfaceKit-simple.csprojResolveAssemblyReference.cache
+Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\obj\Debug\InterfaceKit-simple.exe
+Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\obj\Debug\InterfaceKit-simple.pdb
