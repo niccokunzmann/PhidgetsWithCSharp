@@ -3,3 +3,5 @@ Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\I
 Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\obj\Debug\InterfaceKit-simple.csprojResolveAssemblyReference.cache
 Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\obj\Debug\InterfaceKit-simple.exe
 Y:\Visual Studio 2010\Projects\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\obj\Debug\InterfaceKit-simple.pdb
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\obj\Debug\InterfaceKit-simple.exe
+Y:\programmiertes\PhidgetsWithCSharp\CSharp\InterfaceKitExamples\InterfaceKit-simple\InterfaceKit-simple\obj\Debug\InterfaceKit-simple.pdb
