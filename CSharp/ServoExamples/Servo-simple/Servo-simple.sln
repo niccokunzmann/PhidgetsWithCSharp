@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servo-simple", "Servo-simple\Servo-simple.csproj", "{BD000C4F-5C66-4C68-9FD4-06012F4F27B0}"
 EndProject
 Global
