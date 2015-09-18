@@ -23,4 +23,5 @@ Materialliste, die wir mittransportieren müssen.
   - Farbe 
     - Wasserfarbe
 	- Spraydosen
+  - Roboter
   
