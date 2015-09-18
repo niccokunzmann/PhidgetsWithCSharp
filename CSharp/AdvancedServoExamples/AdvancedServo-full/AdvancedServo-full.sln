@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedServo-full", "AdvancedServo-full\AdvancedServo-full.csproj", "{1EA01FA7-868F-457D-817B-238A008B8AFD}"
 EndProject
 Global
