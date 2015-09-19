@@ -21,7 +21,7 @@ Materialliste, die wir mittransportieren müssen.
   - Klebestreifen
   - Kleber
   - Farbe 
-    - Wasserfarbe
-	- Spraydosen
+      - Wasserfarbe
+	  - Spraydosen
   - Roboter
   - Bonbons
