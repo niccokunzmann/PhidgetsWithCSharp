@@ -9,7 +9,9 @@
 - **11:00** Pause, Trinken, Gruppen finden
 - **11:15** An die Rechner, fertig, LOS!
  
-- **Mittagspause**, freies Arbeiten
+- **13:00** Mittagspause, freies Arbeiten
 
-- **16:30** Protyp startklar machen! Presentation erstellen
-- **17:00** Tränenreiches Verabschieden mit lustigem Spiele
+- **16:30** Protyp startklar machen! Presentation erstellen 16:9
+- **17:00** TRANSFER zu Gleisdreieck
+- **18:15** Presentationen (5min jede)
+- **22:30** Hotel
