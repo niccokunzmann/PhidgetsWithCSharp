@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextLCD-IFKit", "TextLCD-IFKit\TextLCD-IFKit.csproj", "{0788507F-DE8D-4333-BD46-FDB1F073507D}"
 EndProject
 Global

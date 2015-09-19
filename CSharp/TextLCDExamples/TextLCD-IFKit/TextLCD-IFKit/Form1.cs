@@ -395,5 +395,10 @@ namespace TextLCD_IFKit
                 sensorInArray[i].Visible = false;
             }
         }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

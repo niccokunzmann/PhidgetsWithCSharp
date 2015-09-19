@@ -29,6 +29,8 @@ namespace TextLCD_IFKit
         private void InitializeComponent()
         {
             this.groupbox1 = new System.Windows.Forms.GroupBox();
+            this.contrastTrkBr = new System.Windows.Forms.TrackBar();
+            this.label8 = new System.Windows.Forms.Label();
             this.LCDversionText = new System.Windows.Forms.TextBox();
             this.LCDserialText = new System.Windows.Forms.TextBox();
             this.LCDnameText = new System.Windows.Forms.TextBox();
@@ -38,7 +40,16 @@ namespace TextLCD_IFKit
             this.label3 = new System.Windows.Forms.Label();
             this.attachedLabel = new System.Windows.Forms.Label();
             this.groupbox2 = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.sensitivityTxt = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.IFKversionTXT = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.sensorInNumTxt = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.digiOutNumTxt = new System.Windows.Forms.TextBox();
+            this.inputTrk = new System.Windows.Forms.TrackBar();
+            this.digiInNumTxt = new System.Windows.Forms.TextBox();
             this.IFKserialTXT = new System.Windows.Forms.TextBox();
             this.IFKnameTXT = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -65,7 +76,23 @@ namespace TextLCD_IFKit
             this.checkBox22 = new System.Windows.Forms.CheckBox();
             this.checkBox23 = new System.Windows.Forms.CheckBox();
             this.checkBox24 = new System.Windows.Forms.CheckBox();
+            this.checkBox25 = new System.Windows.Forms.CheckBox();
+            this.checkBox26 = new System.Windows.Forms.CheckBox();
+            this.checkBox27 = new System.Windows.Forms.CheckBox();
+            this.checkBox28 = new System.Windows.Forms.CheckBox();
+            this.checkBox29 = new System.Windows.Forms.CheckBox();
+            this.checkBox30 = new System.Windows.Forms.CheckBox();
+            this.checkBox31 = new System.Windows.Forms.CheckBox();
+            this.checkBox32 = new System.Windows.Forms.CheckBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
@@ -74,40 +101,13 @@ namespace TextLCD_IFKit
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.contrastTrkBr = new System.Windows.Forms.TrackBar();
-            this.label8 = new System.Windows.Forms.Label();
-            this.sensitivityTxt = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.inputTrk = new System.Windows.Forms.TrackBar();
-            this.checkBox32 = new System.Windows.Forms.CheckBox();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.sensorInNumTxt = new System.Windows.Forms.TextBox();
-            this.digiOutNumTxt = new System.Windows.Forms.TextBox();
-            this.digiInNumTxt = new System.Windows.Forms.TextBox();
             this.groupbox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.contrastTrkBr)).BeginInit();
             this.groupbox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.inputTrk)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.contrastTrkBr)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputTrk)).BeginInit();
             this.SuspendLayout();
             // 
             // groupbox1
@@ -128,6 +128,23 @@ namespace TextLCD_IFKit
             this.groupbox1.TabIndex = 0;
             this.groupbox1.TabStop = false;
             this.groupbox1.Text = "TextLCD Info";
+            // 
+            // contrastTrkBr
+            // 
+            this.contrastTrkBr.Location = new System.Drawing.Point(9, 204);
+            this.contrastTrkBr.Name = "contrastTrkBr";
+            this.contrastTrkBr.Size = new System.Drawing.Size(176, 45);
+            this.contrastTrkBr.TabIndex = 15;
+            this.contrastTrkBr.Scroll += new System.EventHandler(this.contrastTrkBr_Scroll);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 188);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(49, 13);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Contrast:";
             // 
             // LCDversionText
             // 
@@ -224,6 +241,32 @@ namespace TextLCD_IFKit
             this.groupbox2.TabStop = false;
             this.groupbox2.Text = "InterfaceKit Info";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(12, 253);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(75, 13);
+            this.label10.TabIndex = 19;
+            this.label10.Text = "Analog Inputs:";
+            // 
+            // sensitivityTxt
+            // 
+            this.sensitivityTxt.Location = new System.Drawing.Point(19, 295);
+            this.sensitivityTxt.Name = "sensitivityTxt";
+            this.sensitivityTxt.ReadOnly = true;
+            this.sensitivityTxt.Size = new System.Drawing.Size(76, 20);
+            this.sensitivityTxt.TabIndex = 9;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(8, 221);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(79, 13);
+            this.label11.TabIndex = 18;
+            this.label11.Text = "Digital Outputs:";
+            // 
             // IFKversionTXT
             // 
             this.IFKversionTXT.Location = new System.Drawing.Point(75, 157);
@@ -231,6 +274,56 @@ namespace TextLCD_IFKit
             this.IFKversionTXT.ReadOnly = true;
             this.IFKversionTXT.Size = new System.Drawing.Size(120, 20);
             this.IFKversionTXT.TabIndex = 13;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(16, 187);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(71, 13);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "Digital Inputs:";
+            // 
+            // sensorInNumTxt
+            // 
+            this.sensorInNumTxt.Location = new System.Drawing.Point(93, 250);
+            this.sensorInNumTxt.Name = "sensorInNumTxt";
+            this.sensorInNumTxt.ReadOnly = true;
+            this.sensorInNumTxt.Size = new System.Drawing.Size(102, 20);
+            this.sensorInNumTxt.TabIndex = 16;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(16, 279);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(84, 13);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Input Sensitivity:";
+            // 
+            // digiOutNumTxt
+            // 
+            this.digiOutNumTxt.Location = new System.Drawing.Point(93, 218);
+            this.digiOutNumTxt.Name = "digiOutNumTxt";
+            this.digiOutNumTxt.ReadOnly = true;
+            this.digiOutNumTxt.Size = new System.Drawing.Size(102, 20);
+            this.digiOutNumTxt.TabIndex = 15;
+            // 
+            // inputTrk
+            // 
+            this.inputTrk.Location = new System.Drawing.Point(106, 279);
+            this.inputTrk.Name = "inputTrk";
+            this.inputTrk.Size = new System.Drawing.Size(89, 45);
+            this.inputTrk.TabIndex = 7;
+            this.inputTrk.Scroll += new System.EventHandler(this.inputTrk_Scroll);
+            // 
+            // digiInNumTxt
+            // 
+            this.digiInNumTxt.Location = new System.Drawing.Point(93, 184);
+            this.digiInNumTxt.Name = "digiInNumTxt";
+            this.digiInNumTxt.ReadOnly = true;
+            this.digiInNumTxt.Size = new System.Drawing.Size(102, 20);
+            this.digiInNumTxt.TabIndex = 14;
             // 
             // IFKserialTXT
             // 
@@ -310,6 +403,7 @@ namespace TextLCD_IFKit
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Analog In";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // ratioChk
             // 
@@ -507,6 +601,94 @@ namespace TextLCD_IFKit
             this.checkBox24.Tag = "7";
             this.checkBox24.UseVisualStyleBackColor = true;
             // 
+            // checkBox25
+            // 
+            this.checkBox25.AutoSize = true;
+            this.checkBox25.Enabled = false;
+            this.checkBox25.Location = new System.Drawing.Point(174, 35);
+            this.checkBox25.Name = "checkBox25";
+            this.checkBox25.Size = new System.Drawing.Size(15, 14);
+            this.checkBox25.TabIndex = 23;
+            this.checkBox25.Tag = "8";
+            this.checkBox25.UseVisualStyleBackColor = true;
+            // 
+            // checkBox26
+            // 
+            this.checkBox26.AutoSize = true;
+            this.checkBox26.Enabled = false;
+            this.checkBox26.Location = new System.Drawing.Point(195, 35);
+            this.checkBox26.Name = "checkBox26";
+            this.checkBox26.Size = new System.Drawing.Size(15, 14);
+            this.checkBox26.TabIndex = 22;
+            this.checkBox26.Tag = "9";
+            this.checkBox26.UseVisualStyleBackColor = true;
+            // 
+            // checkBox27
+            // 
+            this.checkBox27.AutoSize = true;
+            this.checkBox27.Enabled = false;
+            this.checkBox27.Location = new System.Drawing.Point(216, 35);
+            this.checkBox27.Name = "checkBox27";
+            this.checkBox27.Size = new System.Drawing.Size(15, 14);
+            this.checkBox27.TabIndex = 21;
+            this.checkBox27.Tag = "10";
+            this.checkBox27.UseVisualStyleBackColor = true;
+            // 
+            // checkBox28
+            // 
+            this.checkBox28.AutoSize = true;
+            this.checkBox28.Enabled = false;
+            this.checkBox28.Location = new System.Drawing.Point(237, 35);
+            this.checkBox28.Name = "checkBox28";
+            this.checkBox28.Size = new System.Drawing.Size(15, 14);
+            this.checkBox28.TabIndex = 20;
+            this.checkBox28.Tag = "11";
+            this.checkBox28.UseVisualStyleBackColor = true;
+            // 
+            // checkBox29
+            // 
+            this.checkBox29.AutoSize = true;
+            this.checkBox29.Enabled = false;
+            this.checkBox29.Location = new System.Drawing.Point(258, 35);
+            this.checkBox29.Name = "checkBox29";
+            this.checkBox29.Size = new System.Drawing.Size(15, 14);
+            this.checkBox29.TabIndex = 19;
+            this.checkBox29.Tag = "12";
+            this.checkBox29.UseVisualStyleBackColor = true;
+            // 
+            // checkBox30
+            // 
+            this.checkBox30.AutoSize = true;
+            this.checkBox30.Enabled = false;
+            this.checkBox30.Location = new System.Drawing.Point(279, 35);
+            this.checkBox30.Name = "checkBox30";
+            this.checkBox30.Size = new System.Drawing.Size(15, 14);
+            this.checkBox30.TabIndex = 18;
+            this.checkBox30.Tag = "13";
+            this.checkBox30.UseVisualStyleBackColor = true;
+            // 
+            // checkBox31
+            // 
+            this.checkBox31.AutoSize = true;
+            this.checkBox31.Enabled = false;
+            this.checkBox31.Location = new System.Drawing.Point(300, 35);
+            this.checkBox31.Name = "checkBox31";
+            this.checkBox31.Size = new System.Drawing.Size(15, 14);
+            this.checkBox31.TabIndex = 17;
+            this.checkBox31.Tag = "14";
+            this.checkBox31.UseVisualStyleBackColor = true;
+            // 
+            // checkBox32
+            // 
+            this.checkBox32.AutoSize = true;
+            this.checkBox32.Enabled = false;
+            this.checkBox32.Location = new System.Drawing.Point(321, 35);
+            this.checkBox32.Name = "checkBox32";
+            this.checkBox32.Size = new System.Drawing.Size(15, 14);
+            this.checkBox32.TabIndex = 16;
+            this.checkBox32.Tag = "15";
+            this.checkBox32.UseVisualStyleBackColor = true;
+            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.checkBox16);
@@ -531,6 +713,86 @@ namespace TextLCD_IFKit
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Digital In";
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Enabled = false;
+            this.checkBox16.Location = new System.Drawing.Point(321, 30);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(15, 14);
+            this.checkBox16.TabIndex = 15;
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Enabled = false;
+            this.checkBox15.Location = new System.Drawing.Point(300, 30);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(15, 14);
+            this.checkBox15.TabIndex = 14;
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Enabled = false;
+            this.checkBox14.Location = new System.Drawing.Point(279, 30);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(15, 14);
+            this.checkBox14.TabIndex = 13;
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Enabled = false;
+            this.checkBox13.Location = new System.Drawing.Point(258, 30);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(15, 14);
+            this.checkBox13.TabIndex = 12;
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Enabled = false;
+            this.checkBox12.Location = new System.Drawing.Point(237, 30);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(15, 14);
+            this.checkBox12.TabIndex = 11;
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Enabled = false;
+            this.checkBox11.Location = new System.Drawing.Point(216, 30);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(15, 14);
+            this.checkBox11.TabIndex = 10;
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Enabled = false;
+            this.checkBox10.Location = new System.Drawing.Point(195, 30);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(15, 14);
+            this.checkBox10.TabIndex = 9;
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Enabled = false;
+            this.checkBox9.Location = new System.Drawing.Point(174, 30);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(15, 14);
+            this.checkBox9.TabIndex = 8;
+            this.checkBox9.UseVisualStyleBackColor = true;
             // 
             // checkBox8
             // 
@@ -612,267 +874,6 @@ namespace TextLCD_IFKit
             this.checkBox1.TabIndex = 0;
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // contrastTrkBr
-            // 
-            this.contrastTrkBr.Location = new System.Drawing.Point(9, 204);
-            this.contrastTrkBr.Name = "contrastTrkBr";
-            this.contrastTrkBr.Size = new System.Drawing.Size(176, 42);
-            this.contrastTrkBr.TabIndex = 15;
-            this.contrastTrkBr.Scroll += new System.EventHandler(this.contrastTrkBr_Scroll);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 188);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 13);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "Contrast:";
-            // 
-            // sensitivityTxt
-            // 
-            this.sensitivityTxt.Location = new System.Drawing.Point(19, 295);
-            this.sensitivityTxt.Name = "sensitivityTxt";
-            this.sensitivityTxt.ReadOnly = true;
-            this.sensitivityTxt.Size = new System.Drawing.Size(76, 20);
-            this.sensitivityTxt.TabIndex = 9;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(16, 279);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 13);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Input Sensitivity:";
-            // 
-            // inputTrk
-            // 
-            this.inputTrk.Location = new System.Drawing.Point(106, 279);
-            this.inputTrk.Name = "inputTrk";
-            this.inputTrk.Size = new System.Drawing.Size(89, 42);
-            this.inputTrk.TabIndex = 7;
-            this.inputTrk.Scroll += new System.EventHandler(this.inputTrk_Scroll);
-            // 
-            // checkBox32
-            // 
-            this.checkBox32.AutoSize = true;
-            this.checkBox32.Enabled = false;
-            this.checkBox32.Location = new System.Drawing.Point(321, 35);
-            this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Size = new System.Drawing.Size(15, 14);
-            this.checkBox32.TabIndex = 16;
-            this.checkBox32.Tag = "15";
-            this.checkBox32.UseVisualStyleBackColor = true;
-            // 
-            // checkBox31
-            // 
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.Enabled = false;
-            this.checkBox31.Location = new System.Drawing.Point(300, 35);
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(15, 14);
-            this.checkBox31.TabIndex = 17;
-            this.checkBox31.Tag = "14";
-            this.checkBox31.UseVisualStyleBackColor = true;
-            // 
-            // checkBox30
-            // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Enabled = false;
-            this.checkBox30.Location = new System.Drawing.Point(279, 35);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(15, 14);
-            this.checkBox30.TabIndex = 18;
-            this.checkBox30.Tag = "13";
-            this.checkBox30.UseVisualStyleBackColor = true;
-            // 
-            // checkBox29
-            // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Enabled = false;
-            this.checkBox29.Location = new System.Drawing.Point(258, 35);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(15, 14);
-            this.checkBox29.TabIndex = 19;
-            this.checkBox29.Tag = "12";
-            this.checkBox29.UseVisualStyleBackColor = true;
-            // 
-            // checkBox28
-            // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Enabled = false;
-            this.checkBox28.Location = new System.Drawing.Point(237, 35);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(15, 14);
-            this.checkBox28.TabIndex = 20;
-            this.checkBox28.Tag = "11";
-            this.checkBox28.UseVisualStyleBackColor = true;
-            // 
-            // checkBox27
-            // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Enabled = false;
-            this.checkBox27.Location = new System.Drawing.Point(216, 35);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(15, 14);
-            this.checkBox27.TabIndex = 21;
-            this.checkBox27.Tag = "10";
-            this.checkBox27.UseVisualStyleBackColor = true;
-            // 
-            // checkBox26
-            // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Enabled = false;
-            this.checkBox26.Location = new System.Drawing.Point(195, 35);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(15, 14);
-            this.checkBox26.TabIndex = 22;
-            this.checkBox26.Tag = "9";
-            this.checkBox26.UseVisualStyleBackColor = true;
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Enabled = false;
-            this.checkBox25.Location = new System.Drawing.Point(174, 35);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(15, 14);
-            this.checkBox25.TabIndex = 23;
-            this.checkBox25.Tag = "8";
-            this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Enabled = false;
-            this.checkBox9.Location = new System.Drawing.Point(174, 30);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
-            this.checkBox9.TabIndex = 8;
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Enabled = false;
-            this.checkBox10.Location = new System.Drawing.Point(195, 30);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(15, 14);
-            this.checkBox10.TabIndex = 9;
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Enabled = false;
-            this.checkBox11.Location = new System.Drawing.Point(216, 30);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(15, 14);
-            this.checkBox11.TabIndex = 10;
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Enabled = false;
-            this.checkBox12.Location = new System.Drawing.Point(237, 30);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 11;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Enabled = false;
-            this.checkBox13.Location = new System.Drawing.Point(258, 30);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
-            this.checkBox13.TabIndex = 12;
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Enabled = false;
-            this.checkBox14.Location = new System.Drawing.Point(279, 30);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
-            this.checkBox14.TabIndex = 13;
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Enabled = false;
-            this.checkBox15.Location = new System.Drawing.Point(300, 30);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(15, 14);
-            this.checkBox15.TabIndex = 14;
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Enabled = false;
-            this.checkBox16.Location = new System.Drawing.Point(321, 30);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(15, 14);
-            this.checkBox16.TabIndex = 15;
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 253);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(75, 13);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "Analog Inputs:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(8, 221);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(79, 13);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Digital Outputs:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(16, 187);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(71, 13);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "Digital Inputs:";
-            // 
-            // sensorInNumTxt
-            // 
-            this.sensorInNumTxt.Location = new System.Drawing.Point(93, 250);
-            this.sensorInNumTxt.Name = "sensorInNumTxt";
-            this.sensorInNumTxt.ReadOnly = true;
-            this.sensorInNumTxt.Size = new System.Drawing.Size(102, 20);
-            this.sensorInNumTxt.TabIndex = 16;
-            // 
-            // digiOutNumTxt
-            // 
-            this.digiOutNumTxt.Location = new System.Drawing.Point(93, 218);
-            this.digiOutNumTxt.Name = "digiOutNumTxt";
-            this.digiOutNumTxt.ReadOnly = true;
-            this.digiOutNumTxt.Size = new System.Drawing.Size(102, 20);
-            this.digiOutNumTxt.TabIndex = 15;
-            // 
-            // digiInNumTxt
-            // 
-            this.digiInNumTxt.Location = new System.Drawing.Point(93, 184);
-            this.digiInNumTxt.Name = "digiInNumTxt";
-            this.digiInNumTxt.ReadOnly = true;
-            this.digiInNumTxt.Size = new System.Drawing.Size(102, 20);
-            this.digiInNumTxt.TabIndex = 14;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -889,16 +890,16 @@ namespace TextLCD_IFKit
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupbox1.ResumeLayout(false);
             this.groupbox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.contrastTrkBr)).EndInit();
             this.groupbox2.ResumeLayout(false);
             this.groupbox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.inputTrk)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.contrastTrkBr)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputTrk)).EndInit();
             this.ResumeLayout(false);
 
         }
