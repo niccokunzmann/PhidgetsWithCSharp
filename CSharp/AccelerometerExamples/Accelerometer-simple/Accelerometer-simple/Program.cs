@@ -54,7 +54,7 @@ namespace Accelerometer_simple
                 //text on the screen
                 for (int i = 0; i < accel.axes.Count; i++)
                 {
-                    accel.axes[i].Sensitivity = 1.0;
+                    accel.axes[i].Sensitivity = 1;
                 }
 
                 //Get the program to wait for user input before moving on so that we can

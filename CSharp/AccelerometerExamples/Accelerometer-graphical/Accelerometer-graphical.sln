@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accelerometer-graphical", "Accelerometer-graphical\Accelerometer-graphical.csproj", "{EC37AC27-2B6E-4B81-8CBF-82A017A8CB94}"
 EndProject
 Global
