@@ -1,12 +1,12 @@
 Material
 --------
 
-Materialliste, die wir mittransportieren müssen.
+Materialliste, die wir mittransportieren mÃ¼ssen.
 
 - Phidgets
-  - Blaue Phidgetkästen
+  - Blaue PhidgetkÃ¤sten
   - Schwarzer Beutel mit Kabeln
-  - Rote Phidgetkästen
+  - Rote PhidgetkÃ¤sten
   - Graue Plastekiste
   - Brauner Karton
 - Bastelmaterial
@@ -24,4 +24,4 @@ Materialliste, die wir mittransportieren müssen.
     - Wasserfarbe
 	- Spraydosen
   - Roboter
-  
+  - Bonbons
