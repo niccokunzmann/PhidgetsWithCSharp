@@ -15,3 +15,4 @@
 - **17:00** TRANSFER zu Gleisdreieck
 - **18:15** Presentationen (5min jede)
 - **22:30** Hotel
+

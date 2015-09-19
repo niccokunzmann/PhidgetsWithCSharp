@@ -25,3 +25,4 @@ Materialliste, die wir mittransportieren müssen.
 	  - Spraydosen
   - Roboter
   - Bonbons
+  - Flipchartpapier
