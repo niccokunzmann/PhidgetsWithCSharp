@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFID-simple", "RFID-simple\RFID-simple.csproj", "{925D70DA-8F43-4C43-B02F-3CADEC85E456}"
 EndProject
 Global
